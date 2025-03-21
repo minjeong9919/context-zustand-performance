@@ -1,7 +1,7 @@
 import { Winner } from "../components/winner/Winner";
 import StoreContextProvider from "../contexts/context";
-import styles from "../common.module.css";
 import { Players } from "../components/players/Players";
+import styles from "../common.module.css";
 
 const ContextPage = () => {
   return (

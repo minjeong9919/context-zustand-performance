@@ -23,7 +23,7 @@ const useStore = () => {
       setTeamA((prev) => prev + 1);
     },
     decreaseTeamAScore: () => {
-      setTeamB((prev) => prev - 1);
+      setTeamA((prev) => prev - 1);
     },
     increaseTeamBScore: () => {
       setTeamB((prev) => prev + 1);

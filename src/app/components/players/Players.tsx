@@ -1,6 +1,5 @@
 "use client";
 
-import { useStoreContext } from "@/app/contexts/context";
 import styles from "./players.module.css";
 import { Player } from "../Player/Player";
 
