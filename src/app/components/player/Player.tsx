@@ -1,6 +1,4 @@
 import { Profiler, useRef } from "react";
-import { initialValue } from "@/app/constants/initialValue";
-import { useStoreContext } from "@/app/contexts/context";
 import { setRenderHighlight } from "@/app/utils/setRenderHighlight";
 import styles from "./player.module.css";
 

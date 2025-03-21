@@ -5,7 +5,6 @@ import { setRenderHighlight } from "@/app/utils/setRenderHighlight";
 import { initialValue } from "@/app/constants/initialValue";
 import { useStoreContext } from "@/app/contexts/context";
 import styles from "./winner.module.css";
-import { useStore } from "zustand";
 
 export const Winner = () => {
   const { teamA, teamB } = useStoreContext() || initialValue;
