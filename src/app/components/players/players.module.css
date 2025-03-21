@@ -1,0 +1,25 @@
+.container {
+  border: 1px solid black;
+  width: 800px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-item: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.title {
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  top: -30px;
+}
+
+.playerWrapper {
+  display: flex;
+  gap: 20px;
+}
