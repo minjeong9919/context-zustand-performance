@@ -1,14 +1,14 @@
 "use client";
 
-import { initialValue } from "@/app/constants/initialValue";
-import { useStoreContext } from "../../contexts/context";
-import styles from "./winner.module.css";
 import { Profiler, useRef } from "react";
 import { setRenderHighlight } from "@/app/utils/setRenderHighlight";
+import styles from "./winner.module.css";
+import useStore from "@/app/contexts/zustandStore";
 
 export const Winner = () => {
-  const { teamA, teamB } = useStoreContext() || initialValue;
   const ref = useRef<HTMLDivElement | null>(null);
+  const teamA = useStore((state) => state.teamA);
+  const teamB = useStore((state) => state.teamB);
 
   return (
     <Profiler id='winner' onRender={() => setRenderHighlight(ref)}>

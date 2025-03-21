@@ -3,7 +3,7 @@ import { Winner } from "./components/winner/Winner";
 import { Players } from "./components/players/Players";
 import styles from "../common.module.css";
 
-const ContextPage = () => {
+const zustandPage = () => {
   return (
     <StoreContextProvider>
       <div className={styles.pageContainer}>
@@ -14,4 +14,4 @@ const ContextPage = () => {
   );
 };
 
-export default ContextPage;
+export default zustandPage;
